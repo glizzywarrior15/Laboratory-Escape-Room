@@ -5,9 +5,9 @@ public class Entry : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
    // Public function to load a scene by its name (string)
-    public void LoadSceneByName(string newScene)
+    public void LoadSceneByName(string testScene)
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(testScene);
     }
 
 
